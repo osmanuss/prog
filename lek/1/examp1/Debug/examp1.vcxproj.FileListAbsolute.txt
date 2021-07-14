@@ -1,0 +1,2 @@
+D:\selfupdate\prog\lek\1\examp1\Debug\examp1.exe
+D:\selfupdate\prog\lek\1\examp1\Debug\examp1.pdb
