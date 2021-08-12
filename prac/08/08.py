@@ -9,6 +9,9 @@ elif x == '-':
 elif x == '*':
     print('=', a * b)
 elif x == '/':
-    print('=', a / b)
+    if b == 0:
+        print('- делить на ноль нельзя')
+    else:
+        print('=', a / b)
 else:
     print('- это не стандартный пример')

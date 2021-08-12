@@ -3,7 +3,7 @@
 int main()
 {
     setlocale(LC_ALL, "rus");
-    double a, b, c, x1, x2, d;
+    double a, b, c, d;
     std::cout << "Введите переменные\na = ";
     std::cin >> a;
     std::cout << "b = ";

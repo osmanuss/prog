@@ -7,26 +7,29 @@ int main()
     setlocale(LC_ALL, "rus");
     std::cout << "Вводите свой пример\n";
     std::cin >> a >> x >> b;
-    std::cout << a << " " << x << " " << b << " = ";
+    std::cout << a << " " << x << " " << b;
     if (x == '+')
     {
-        std::cout << a + b;
+        std::cout << " = " << a + b;
         return 0;
     }
     if (x == '-')
     {
-        std::cout << a - b;
+        std::cout << " = " << a - b;
         return 0;
     }
     if (x == '*')
     {
-        std::cout << a * b;
+        std::cout << " = " << a * b;
         return 0;
     }
     if (x == '/')
     {
-        std::cout << a / b;
+        if (b == 0)
+            std::cout << " - делить на ноль нельзя";
+        else
+            std::cout << " = " << a / b;
         return 0;
     }
-    std::cout << "Мы не можем такое решить, если это пример вообще";
+    std::cout << " - мы не можем такое решить, если это пример вообще";
 }
